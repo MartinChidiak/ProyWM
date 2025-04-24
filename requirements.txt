@@ -1,0 +1,8 @@
+tabulate
+streamlit
+pandas
+plotly
+requests
+pillow
+seaborn
+matplotlib
