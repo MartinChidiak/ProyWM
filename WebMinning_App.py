@@ -60,7 +60,7 @@ def load_data():
     series_seasons = pd.read_sql("SELECT * FROM series_providers_seasons_v2", conn)
 
     # Cargar el archivo CSV con los logos de los proveedores
-    logos_df = pd.read_csv("logos/providers_logos.csv")
+    logos_df = pd.read_csv("web-mining/providers_logos.csv")
 
 
     conn.close()
